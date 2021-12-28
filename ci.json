@@ -1,7 +1,6 @@
 {
-  "image":"openjdk:17" ,
+  "image":"maven:3.8.4-openjdk-17" ,
   "cmd": ["ls -l"
-    , "chmod +x ./mvnw"
-    , "./mvnw package"
+    , "mvnw package"
     , "ls -l target"]
 }
