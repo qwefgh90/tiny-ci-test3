@@ -1,6 +1,6 @@
 {
   "image":"maven:3.8.4-openjdk-17" ,
   "cmd": ["ls -l"
-    , "mvnw package"
+    , "mvn package"
     , "ls -l target"]
 }
