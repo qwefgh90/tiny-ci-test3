@@ -1,0 +1,5 @@
+{
+  image:"openjdk:17" 
+  cmd: ["./mvnw package"
+    , "ls -l target"]
+}
